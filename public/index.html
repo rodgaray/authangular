@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html lang="en" ng-app="myApp">
 
 <head>
     <meta charset="UTF-8">
@@ -13,6 +13,8 @@
 <body>
     <div class="container" ng-controller="AppCtrl">
         <h1>Contact List App</h1>
+        <input type="text" ng-model="test">
+        {{test}}
         <table class="table">
             <thead>
                 <tr>
@@ -30,10 +32,8 @@
             </tbody>
         </table>
     </div>
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
-    <script type="text/JavaScript" scr="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-    <script type="text/JavaScript" scr="controllers/controller.js"></script>
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="controllers/controller.js"></script>
 </body>
 
 </html>
