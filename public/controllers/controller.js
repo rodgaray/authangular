@@ -43,5 +43,9 @@ myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
     	});
     };
 
+    $scope.deselect = function() {
+    	$scope.contact = "";
+    }
+
     // $scope.contactlist = contactlist;
 }]);
